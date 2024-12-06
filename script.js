@@ -1,5 +1,5 @@
 const CLIENT_ID = "1314538715741294592";
-const REDIRECT_URI = "https://download-ruby-five.vercel.app/";
+const REDIRECT_URI = "https://download-ruby-five.vercel.app";
 
 document.getElementById("login-button").addEventListener("click", () => {
   const authUrl = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=token&scope=identify`;
